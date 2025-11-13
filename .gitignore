@@ -1,0 +1,12 @@
+node_modules/
+*.tgz
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+android/.cxx/
+android/.gradle/
+android/build/
+android/gradle/
+android/gradlew*
+android/local.properties
+

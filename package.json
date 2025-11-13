@@ -1,0 +1,36 @@
+{
+  "name": "react-native-frida-detection-android",
+  "version": "0.1.0",
+  "description": "React Native Frida detection for Android (native module)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "android",
+    "react-native.config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react-native",
+    "android",
+    "security",
+    "frida",
+    "detection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrliputo/rn-frida-detection-android.git"
+  },
+  "author": "mrliputo",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "react-native": {
+    "platforms": {
+      "android": "android"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Exclude development-only files
+*.tgz
+*.log
+.git/
+.github/
+.vscode/
+.idea/
+example/
+
+# Exclude Kotlin scaffolding (we ship Java-only per README)
+android/src/main/java/**/FridaDetectionModule.kt
+android/src/main/java/**/FridaDetectionModuleSpec.kt
+
+# Keep android sources but exclude gradle wrapper binaries
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+
