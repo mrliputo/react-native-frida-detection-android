@@ -53,7 +53,30 @@ npm pack
 npm install ../path/to/react-native-frida-detection-android/react-native-frida-detection-android-*.tgz
 ```
 
+## Example App
+Ada dua opsi:
+
+1) Cepat (generate otomatis di folder ini):
+
+```bash
+npm run bootstrap:example
+# setelah selesai
+cd example/FridaExample
+npm start
+# terminal lain
+npm run android
+```
+
+2) Manual di app RN kamu:
+```bash
+npx react-native init DemoFridaApp --version 0.73.10
+cd DemoFridaApp
+npm install react-native-frida-detection-android
+# salin isi contoh dari example/App.js ke App.js
+npm start
+npm run android
+```
+
 ## License
 
 MIT
-
