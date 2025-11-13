@@ -1,6 +1,6 @@
 {
   "name": "react-native-frida-detection-android",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native Frida detection for Android (native module)",
   "main": "index.js",
   "types": "index.d.ts",
